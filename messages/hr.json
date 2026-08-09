@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "home": "Početna",
+    "about": "O meni",
+    "gallery": "Galerije",
+    "videos": "Videi",
+    "blog": "Blog",
+    "contact": "Kontakt"
+  },
+  "contact": {
+    "firstName": "Ime",
+    "lastName": "Prezime",
+    "email": "Email",
+    "phone": "Telefon (opcionalno)",
+    "message": "Poruka",
+    "submit": "Pošalji",
+    "submitting": "Šaljem...",
+    "intro": "Javite mi se za upit o vjenčanju, eventu ili kreativnom projektu — rado ću odgovoriti u najkraćem mogućem roku.",
+    "success": "Hvala! Poruka je poslana, javit ćemo se uskoro.",
+    "errorRateLimit": "Poslali ste previše poruka. Pokušajte kasnije.",
+    "errorGeneric": "Nešto je pošlo po krivu. Pokušajte ponovno.",
+    "errorNetwork": "Provjerite internetsku vezu i pokušajte ponovno."
+  },
+  "home": {
+    "heroSubtitle": "Fotograf i snimatelj s otoka Krka"
+  },
+  "about": {
+    "eyebrow": "O meni",
+    "title": "Luka — LUX Vision",
+    "paragraph1": "Fotografija i snimanje su za mene počeli kao hobi, no s vremenom su postali strast, a naposljetku i poziv — prilika da radim ono što volim, dok čuvam trenutke koji su važni.",
+    "paragraph2": "Ime LUX dolazi od latinske riječi za svjetlo, a ujedno je inspirirano i mojim imenom. Vision predstavlja način na koji vidim svijet, ali i priče i emocije koje nastojim sačuvati kroz svoj rad.",
+    "paragraph3": "Volim prirodno svjetlo, stvarne trenutke i iskrene emocije bez pretjeranog poziranja. Bilo da snimam vjenčanja, evente ili osobne kreativne projekte, cilj je uvijek isti: ispričati priču koja djeluje autentično, emotivno i bezvremenski.",
+    "quote": "Do what you love, and love what you do.",
+    "readMore": "Saznaj više"
+  },
+  "signature": {
+    "line": "Svjetlo traje samo trenutak — mi ga hvatamo zauvijek."
+  },
+  "galleryPreview": {
+    "eyebrow": "Portfolio",
+    "title": "Odabrani trenuci",
+    "cta": "Pogledaj sve galerije"
+  },
+  "videoPreview": {
+    "eyebrow": "Film",
+    "title": "Priče u pokretu",
+    "cta": "Pogledaj sve videe"
+  },
+  "ctaSection": {
+    "title": "Hoćemo li ispričati vašu priču?",
+    "subtitle": "Dostupan za vjenčanja, evente i kreativne projekte na otoku Krku i šire.",
+    "button": "Kontaktiraj me"
+  },
+  "footer": {
+    "tagline": "Fotografija i videografija s otoka Krka.",
+    "email": "Email",
+    "phone": "Telefon",
+    "rights": "Sva prava pridržana."
+  },
+  "aboutPage": {
+    "eyebrow": "O meni",
+    "title": "Luka Kosić",
+    "intro": "Bok, ja sam Luka, fotograf i snimatelj s otoka Krka, Hrvatska, i osoba iza LUX Visiona.",
+    "paragraph1": "Za mene su fotografija i snimanje počeli kao hobi, no s vremenom su postali strast, a naposljetku i poziv — prilika da radim ono što volim, dok čuvam trenutke koji su važni.",
+    "paragraph2": "Ime LUX dolazi od latinske riječi za svjetlo, a ujedno je inspirirano i mojim imenom, Luka. Vision predstavlja ne samo način na koji vidim svijet, već i priče i emocije koje nastojim sačuvati kroz svoj rad.",
+    "paragraph3": "U ovu sam se industriju upustio jer sam počeo primjećivati koliko brzo trenuci nestaju — način na koji se ljudi smiju kad zaborave da je kamera tu, tihe stanke između riječi, atmosferu mjesta koja se nikad više neće ponoviti na potpuno isti način. Kad god je moguće, radije radim s prirodnim svjetlom, stvarnim okruženjima i neuprizorenim trenucima. Privlači me jednostavnost, čiste kompozicije, iskrene emocije i kinematografski pristup koji nadograđuje stvarnost, a ne je zamjenjuje. Obraćam pažnju na sitne detalje, na energiju ljudi, i na to kako svjetlo mijenja scenu u sekundi. Težim iskrenosti, atmosferi i smislu. Bilo da snimam vjenčanja, evente ili osobne kreativne projekte, cilj je uvijek isti: ispričati priče koje djeluju autentično, emotivno i bezvremenski.",
+    "paragraph4": "LUX Vision nije samo o fotografijama ili videima — riječ je o uspomenama i trenucima. Riječ je o tome kako se nešto osjećalo u određenom trenutku, i mogućnosti da taj osjećaj ponovno proživite godinama kasnije, kroz fotografije ili video.",
+    "quote": "Do what you love, and love what you do."
+  }
+}

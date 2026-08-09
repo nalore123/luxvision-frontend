@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "gallery": "Galleries",
+    "videos": "Videos",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "contact": {
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Email",
+    "phone": "Phone (optional)",
+    "message": "Message",
+    "submit": "Send",
+    "submitting": "Sending...",
+    "intro": "Reach out with your wedding, event, or creative project inquiry — I'll get back to you as soon as possible.",
+    "success": "Thank you! Your message has been sent, we'll get back to you soon.",
+    "errorRateLimit": "You've sent too many messages. Please try again later.",
+    "errorGeneric": "Something went wrong. Please try again.",
+    "errorNetwork": "Please check your internet connection and try again."
+  },
+  "home": {
+    "heroSubtitle": "Photographer & videographer from the island of Krk"
+  },
+  "about": {
+    "eyebrow": "About me",
+    "title": "Luka — LUX Vision",
+    "paragraph1": "Photography and videography began as a hobby for me, but over time they turned into a passion and eventually a profession, allowing me to do what I love while preserving moments that matter.",
+    "paragraph2": "The name LUX comes from the Latin word for light, while also being inspired by my own name. Vision represents the way I see the world, as well as the stories and emotions I strive to preserve through my work.",
+    "paragraph3": "I prefer natural light, real environments, and honest emotion over posed perfection. Whether I'm shooting weddings, events, or personal creative projects, the goal is always the same: to tell a story that feels authentic, emotional, and timeless.",
+    "quote": "Do what you love, and love what you do.",
+    "readMore": "Read more"
+  },
+  "signature": {
+    "line": "Light lasts only a moment — we capture it forever."
+  },
+  "galleryPreview": {
+    "eyebrow": "Portfolio",
+    "title": "Selected moments",
+    "cta": "View all galleries"
+  },
+  "videoPreview": {
+    "eyebrow": "Film",
+    "title": "Stories in motion",
+    "cta": "View all videos"
+  }, 
+  "ctaSection": {
+    "title": "Shall we tell your story?",
+    "subtitle": "Available for weddings, events, and creative projects on the island of Krk and beyond.",
+    "button": "Get in touch"
+  },
+  "footer": {
+    "tagline": "Photography and videography from the island of Krk.",
+    "email": "Email",
+    "phone": "Phone",
+    "rights": "All rights reserved."
+  },
+  "aboutPage": {
+    "eyebrow": "About me",
+    "title": "Luka Kosić",
+    "intro": "Hi, I'm Luka, a photographer and videographer from the island of Krk, Croatia and the person behind LUX Vision.",
+    "paragraph1": "For me, photography and videography began as a hobby, but over time they turned into a passion and eventually a profession, allowing me to do what I love while preserving moments that matter.",
+    "paragraph2": "The name LUX comes from the Latin word for light, while also being inspired by my own name, Luka. Vision represents not only the way I see the world, but also the stories and emotions I strive to preserve through my work.",
+    "paragraph3": "I came into this industry because I started noticing how quickly moments disappear, the way people laugh when they forget the camera is there, the quiet pauses between words, the atmosphere of a place that can never be repeated in exactly the same way again. I prefer working with natural light, real environments, and unposed situations whenever possible. I'm drawn to simplicity, clean compositions, honest emotions and a cinematic approach that enhances reality rather than replacing it. I pay attention to small details, to people's energy, and to how light changes a scene in seconds. I aim for honesty, atmosphere, and meaning. Whether I'm shooting weddings, events, or personal creative projects, the goal is always the same: to tell stories that feel authentic, emotional, and timeless.",
+    "paragraph4": "LUX Vision is not just about photos or videos, it's about memories and moments. It's about how something felt in a specific moment of time, and being able to relive that feeling years later through photos or videos.",
+    "quote": "Do what you love, and love what you do."
+  }
+
+}
