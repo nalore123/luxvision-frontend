@@ -5,7 +5,7 @@ import Image from "next/image";
 import { motion } from "motion/react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import type { Video } from "@/types/video";
+import type { Video } from "@/types/videos";
 
 export default function VideoPreview({ video }: { video: Video | null }) {
   const t = useTranslations("videoPreview");

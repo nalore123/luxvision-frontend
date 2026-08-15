@@ -1,6 +1,6 @@
 import type { GalleryListItem, GalleryDetail } from "@/types/gallery";
 import type { BlogPostListItem, BlogPostDetail, PaginatedBlogPosts } from "@/types/blog";
-import type { Video, PaginatedVideos } from "@/types/video";
+import type { Video, PaginatedVideos } from "@/types/videos";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL;
 const isDev = process.env.NODE_ENV === "development";

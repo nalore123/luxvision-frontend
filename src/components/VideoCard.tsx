@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import type { Video } from "@/types/video";
+import type { Video } from "@/types/videos";
 
 export default function VideoCard({ video }: { video: Video }) {
   const [isPlaying, setIsPlaying] = useState(false);

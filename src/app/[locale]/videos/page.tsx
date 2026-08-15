@@ -2,6 +2,7 @@ import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { getVideos } from "@/lib/api";
 import VideoCard from "@/components/VideoCard";
+import type { Video } from "@/types/videos";
 
 export default async function VideosPage({
   params,
@@ -30,7 +31,7 @@ export default async function VideosPage({
       ) : (
         <>
           <div className="mx-auto grid max-w-6xl gap-10 sm:grid-cols-2 md:grid-cols-3">
-            {videos.map((video) => (
+            {videos.map((video: Video) => (
               <VideoCard key={video.id} video={video} />
             ))}
           </div>
