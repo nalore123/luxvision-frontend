@@ -3,6 +3,8 @@ export interface GalleryImage {
   image: string;
   alt_text: string;
   order: number;
+  width: number | null;
+  height: number | null;
 }
 
 export interface GalleryListItem {

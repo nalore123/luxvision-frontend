@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import type { GalleryImage } from "@/types/gallery";
@@ -31,12 +32,23 @@ export default function GalleryMasonry({
             onClick={() => setOpenIndex(i)}
             className="mb-4 block w-full break-inside-avoid overflow-hidden"
           >
-            <img
-              src={image.image}
-              alt={image.alt_text || galleryTitle}
-              loading="lazy"
-              className="w-full transition-opacity duration-300 hover:opacity-80"
-            />
+            {image.width && image.height ? (
+              <Image
+                src={image.image}
+                alt={image.alt_text || galleryTitle}
+                width={image.width}
+                height={image.height}
+                sizes="(min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
+                className="h-auto w-full transition-opacity duration-300 hover:opacity-80"
+              />
+            ) : (
+              <img
+                src={image.image}
+                alt={image.alt_text || galleryTitle}
+                loading="lazy"
+                className="w-full transition-opacity duration-300 hover:opacity-80"
+              />
+            )}
           </button>
         ))}
       </div>
