@@ -6,6 +6,7 @@ const SECTIONS = [
   { href: "/dashboard/videos", label: "Videi", description: "Dodaj i uredi videe" },
   { href: "/dashboard/blog", label: "Blog", description: "Piši i uređuj blog objave" },
   { href: "/dashboard/messages", label: "Poruke", description: "Pregledaj kontakt upite" },
+  { href: "/dashboard/settings", label: "Postavke", description: "Promijeni naslovnu (hero) sliku" },
 ];
 
 export default function DashboardPage() {

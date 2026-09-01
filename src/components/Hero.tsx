@@ -4,9 +4,11 @@ import { motion } from "motion/react";
 
 export default function Hero({
   imageUrl,
+  imageAlt,
   subtitle,
 }: {
   imageUrl: string | null;
+  imageAlt: string;
   subtitle: string;
 }) {
   return (
@@ -14,7 +16,7 @@ export default function Hero({
       {imageUrl && (
         <img
           src={imageUrl}
-          alt=""
+          alt={imageAlt}
           className="absolute inset-0 h-full w-full object-cover"
         />
       )}

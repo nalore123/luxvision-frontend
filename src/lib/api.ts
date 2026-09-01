@@ -1,6 +1,7 @@
 import type { GalleryListItem, GalleryDetail } from "@/types/gallery";
 import type { BlogPostListItem, BlogPostDetail, PaginatedBlogPosts } from "@/types/blog";
 import type { Video, PaginatedVideos } from "@/types/videos";
+import type { HeroSection } from "@/types/sitesettings";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL;
 const isDev = process.env.NODE_ENV === "development";
@@ -14,6 +15,15 @@ export async function getGalleries(locale: string): Promise<GalleryListItem[]> {
   if (!res.ok) {
     throw new Error("Failed to fetch galleries");
   }
+
+  return res.json();
+}
+export async function getHeroSection(): Promise<HeroSection> {
+  const res = await fetch(`${API_URL}/hero/`, {
+    ...(isDev ? { cache: "no-store" as const } : { next: { revalidate: 3600 } }),
+  });
+
+  if (!res.ok) throw new Error("Failed to fetch hero section");
 
   return res.json();
 }
