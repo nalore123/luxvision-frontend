@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { revalidatePath } from "next/cache";
 import { authenticatedFetch } from "@/lib/serverApi";
 
 export async function GET() {
@@ -16,5 +17,11 @@ export async function PATCH(request: NextRequest) {
   });
 
   const data = await res.json();
+
+  if (res.ok) {
+    revalidatePath("/hr");
+    revalidatePath("/en");
+  }
+
   return NextResponse.json(data, { status: res.status });
 }
