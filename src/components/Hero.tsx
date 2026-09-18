@@ -20,14 +20,14 @@ export default function Hero({
           className="absolute inset-0 h-full w-full object-cover"
         />
       )}
-      <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/20 to-background/80" />
+      <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/45 to-background/80" />
 
       <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
         <motion.h1
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
-          className="font-display text-6xl italic tracking-tight text-foreground md:text-8xl"
+          className="font-display text-6xl italic tracking-tight text-foreground drop-shadow-[0_2px_12px_rgba(0,0,0,0.5)] md:text-8xl"
         >
           LUX Vision
         </motion.h1>
@@ -35,7 +35,7 @@ export default function Hero({
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
-          className="mt-4 font-sans text-sm uppercase tracking-[0.3em] text-muted md:text-base"
+          className="mt-4 font-sans text-sm uppercase tracking-[0.3em] text-foreground/80 drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)] md:text-base"
         >
           {subtitle}
         </motion.p>
