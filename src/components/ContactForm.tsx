@@ -2,6 +2,7 @@
 
 import { useState, FormEvent } from "react";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import type { ContactFormData } from "@/types/contact";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL;
@@ -20,6 +21,7 @@ export default function ContactForm() {
     phone: "",
     message: "",
   });
+  const [consentGiven, setConsentGiven] = useState(false);
   const [status, setStatus] = useState<Status>("idle");
   const [errorMessage, setErrorMessage] = useState("");
 
@@ -31,14 +33,21 @@ export default function ContactForm() {
 
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
-    setStatus("submitting");
     setErrorMessage("");
+
+    if (!consentGiven) {
+      setErrorMessage(t("errorConsent"));
+      setStatus("error");
+      return;
+    }
+
+    setStatus("submitting");
 
     try {
       const res = await fetch(`${API_URL}/contact/`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({ ...formData, consent_given: consentGiven }),
       });
 
       if (res.status === 429) {
@@ -55,6 +64,7 @@ export default function ContactForm() {
 
       setStatus("success");
       setFormData({ first_name: "", last_name: "", email: "", phone: "", message: "" });
+      setConsentGiven(false);
     } catch {
       setErrorMessage(t("errorNetwork"));
       setStatus("error");
@@ -117,6 +127,21 @@ export default function ContactForm() {
         required
         className={`${inputClasses} resize-none`}
       />
+
+      <label className="flex items-start gap-3 font-sans text-sm text-foreground/70">
+        <input
+          type="checkbox"
+          checked={consentGiven}
+          onChange={(e) => setConsentGiven(e.target.checked)}
+          className="mt-1 h-4 w-4 shrink-0 accent-gold"
+        />
+        <span>
+          {t("consentTextBefore")}{" "}
+          <Link href="/privacy-policy" className="underline text-gold hover:opacity-80">
+            {t("consentLinkText")}
+          </Link>
+        </span>
+      </label>
 
       {status === "error" && (
         <p className="font-sans text-sm text-wine">{errorMessage}</p>

@@ -7,6 +7,44 @@
     "blog": "Blog",
     "contact": "Kontakt"
   },
+  "privacyPolicy": {
+    "title": "Politika privatnosti",
+    "lastUpdated": "Zadnje ažurirano: 21. rujna 2026.",
+    "intro": "Ova politika privatnosti objašnjava koje osobne podatke LUX Vision prikuplja putem ove web stranice, kako ih koristi i koja prava imate u vezi s njima.",
+    "controllerTitle": "Voditelj obrade podataka",
+    "controllerText": "Voditelj obrade vaših osobnih podataka je LUX Vision, obrt sa sjedištem u Krku. Za sva pitanja vezana uz zaštitu osobnih podataka možete nas kontaktirati putem kontakt forme na ovoj stranici ili na email lkosic.photo@gmail.com.",
+    "dataCollectedTitle": "Koje podatke prikupljamo",
+    "dataCollected": [
+      "Ime i prezime",
+      "Email adresa",
+      "Telefonski broj (opcionalno)",
+      "Sadržaj poruke koju nam pošaljete",
+      "IP adresa, u svrhu sprječavanja zloupotrebe kontakt forme",
+      "Podatak o vašem pristanku na obradu podataka, zajedno s vremenom slanja poruke"
+    ],
+    "purposeTitle": "Svrha obrade podataka",
+    "purposeText": "Vaše podatke prikupljamo isključivo kako bismo mogli odgovoriti na vaš upit poslan putem kontakt forme. Ne koristimo vaše podatke u marketinške svrhe niti ih prosljeđujemo trećim stranama.",
+    "retentionTitle": "Koliko dugo čuvamo podatke",
+    "retentionText": "Vaše podatke čuvamo dok postoji svrha za koju su prikupljeni, odnosno dok ne zatražite njihovo brisanje.",
+    "cookiesTitle": "Kolačići",
+    "cookiesIntro": "Naša stranica koristi minimalan broj kolačića, isključivo u funkcionalne svrhe. Ne koristimo kolačiće za analitiku ni marketinško praćenje.",
+    "cookieAuth": "Autentikacijski kolačić — koristi se isključivo prilikom prijave administratora na upravljačku ploču stranice, radi sigurne sesije.",
+    "cookieLocale": "Kolačić za jezik — pamti vaš odabir jezika (hrvatski/engleski) tijekom posjeta stranici.",
+    "rightsTitle": "Vaša prava",
+    "rightsIntro": "U vezi s vašim osobnim podacima imate pravo na:",
+    "rights": [
+      "Pristup vašim osobnim podacima koje čuvamo",
+      "Ispravak netočnih ili nepotpunih podataka",
+      "Brisanje vaših osobnih podataka",
+      "Ograničavanje obrade vaših podataka",
+      "Prenosivost vaših podataka drugoj organizaciji",
+      "Prigovor na obradu vaših podataka"
+    ],
+    "contactTitle": "Kako ostvariti svoja prava",
+    "contactText": "Ako želite ostvariti bilo koje od gore navedenih prava, kontaktirajte nas putem kontakt forme ili na email lkosic.photo@gmail.com. Odgovorit ćemo na vaš zahtjev u najkraćem mogućem roku.",
+    "changesTitle": "Izmjene ove politike",
+    "changesText": "Ovu politiku privatnosti možemo povremeno ažurirati. Preporučujemo da je povremeno pregledate kako biste bili informirani o eventualnim promjenama."
+  },
   "contact": {
     "firstName": "Ime",
     "lastName": "Prezime",
@@ -19,7 +57,10 @@
     "success": "Hvala! Poruka je poslana, javit ćemo se uskoro.",
     "errorRateLimit": "Poslali ste previše poruka. Pokušajte kasnije.",
     "errorGeneric": "Nešto je pošlo po krivu. Pokušajte ponovno.",
-    "errorNetwork": "Provjerite internetsku vezu i pokušajte ponovno."
+    "errorNetwork": "Provjerite internetsku vezu i pokušajte ponovno.",
+    "consentTextBefore": "Slažem se s",
+    "consentLinkText": "politikom privatnosti",
+    "errorConsent": "Molimo prihvatite politiku privatnosti prije slanja poruke."
   },
   "home": {
     "heroSubtitle": "Fotograf i snimatelj s otoka Krka"

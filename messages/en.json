@@ -7,6 +7,44 @@
     "blog": "Blog",
     "contact": "Contact"
   },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: September 21, 2026",
+    "intro": "This privacy policy explains what personal data LUX Vision collects through this website, how it is used, and what rights you have regarding it.",
+    "controllerTitle": "Data Controller",
+    "controllerText": "The controller of your personal data is LUX Vision, a sole proprietorship based in Krk, Croatia. For any questions regarding data protection, you can contact us through the contact form on this site or at lkosic.photo@gmail.com.",
+    "dataCollectedTitle": "What Data We Collect",
+    "dataCollected": [
+      "First and last name",
+      "Email address",
+      "Phone number (optional)",
+      "The content of the message you send us",
+      "IP address, for the purpose of preventing misuse of the contact form",
+      "A record of your consent to data processing, together with the time the message was sent"
+    ],
+    "purposeTitle": "Purpose of Processing",
+    "purposeText": "We collect your data solely to respond to your inquiry submitted through the contact form. We do not use your data for marketing purposes or share it with third parties.",
+    "retentionTitle": "How Long We Keep Your Data",
+    "retentionText": "We keep your data for as long as the purpose for which it was collected still applies, or until you request its deletion.",
+    "cookiesTitle": "Cookies",
+    "cookiesIntro": "This site uses a minimal number of cookies, strictly for functional purposes. We do not use cookies for analytics or marketing tracking.",
+    "cookieAuth": "Authentication cookie — used only when an administrator logs into the site's management dashboard, to maintain a secure session.",
+    "cookieLocale": "Language cookie — remembers your language selection (Croatian/English) during your visit.",
+    "rightsTitle": "Your Rights",
+    "rightsIntro": "Regarding your personal data, you have the right to:",
+    "rights": [
+      "Access the personal data we hold about you",
+      "Correct inaccurate or incomplete data",
+      "Request deletion of your personal data",
+      "Restrict the processing of your data",
+      "Request the transfer of your data to another organization",
+      "Object to the processing of your data"
+    ],
+    "contactTitle": "How to Exercise Your Rights",
+    "contactText": "If you wish to exercise any of the rights listed above, please contact us through the contact form or at lkosic.photo@gmail.com. We will respond to your request as soon as possible.",
+    "changesTitle": "Changes to This Policy",
+    "changesText": "We may update this privacy policy from time to time. We recommend checking it periodically to stay informed of any changes."
+  },
   "contact": {
     "firstName": "First name",
     "lastName": "Last name",
@@ -19,7 +57,10 @@
     "success": "Thank you! Your message has been sent, we'll get back to you soon.",
     "errorRateLimit": "You've sent too many messages. Please try again later.",
     "errorGeneric": "Something went wrong. Please try again.",
-    "errorNetwork": "Please check your internet connection and try again."
+    "errorNetwork": "Please check your internet connection and try again.",
+    "consentTextBefore": "I agree to the",
+    "consentLinkText": "privacy policy",
+    "errorConsent": "Please accept the privacy policy before submitting."
   },
   "home": {
     "heroSubtitle": "Photographer & videographer from the island of Krk"
