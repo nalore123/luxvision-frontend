@@ -3,6 +3,20 @@ import { Link } from "@/i18n/navigation";
 import { getVideos } from "@/lib/api";
 import VideoCard from "@/components/VideoCard";
 import type { Video } from "@/types/videos";
+import type { Metadata } from "next";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "seo.videos" }); 
+  return {
+    title: t("title"),
+    description: t("description"),
+  };
+}
 
 export default async function VideosPage({
   params,

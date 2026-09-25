@@ -107,5 +107,35 @@
     "paragraph3": "U ovu sam se industriju upustio jer sam počeo primjećivati koliko brzo trenuci nestaju — način na koji se ljudi smiju kad zaborave da je kamera tu, tihe stanke između riječi, atmosferu mjesta koja se nikad više neće ponoviti na potpuno isti način. Kad god je moguće, radije radim s prirodnim svjetlom, stvarnim okruženjima i neuprizorenim trenucima. Privlači me jednostavnost, čiste kompozicije, iskrene emocije i kinematografski pristup koji nadograđuje stvarnost, a ne je zamjenjuje. Obraćam pažnju na sitne detalje, na energiju ljudi, i na to kako svjetlo mijenja scenu u sekundi. Težim iskrenosti, atmosferi i smislu. Bilo da snimam vjenčanja, evente ili osobne kreativne projekte, cilj je uvijek isti: ispričati priče koje djeluju autentično, emotivno i bezvremenski.",
     "paragraph4": "LUX Vision nije samo o fotografijama ili videima — riječ je o uspomenama i trenucima. Riječ je o tome kako se nešto osjećalo u određenom trenutku, i mogućnosti da taj osjećaj ponovno proživite godinama kasnije, kroz fotografije ili video.",
     "quote": "Do what you love, and love what you do."
+  },
+  "seo": {
+    "home": {
+      "title": "Fotograf i snimatelj Krk | LUX Vision – Luka Kosić",
+      "description": "Profesionalni fotograf i snimatelj s otoka Krka. Fotografiranje i snimanje vjenčanja, događaja, poslovnih projekata i osobnih portreta."
+    },
+    "about": {
+      "title": "O meni | Fotograf Krk – LUX Vision",
+      "description": "Upoznajte Luku Kosića, fotografa i snimatelja s otoka Krka iza LUX Vision. Priča, pristup i stil rada."
+    },
+    "galleries": {
+      "title": "Galerije | Fotografije vjenčanja, događaja i portreta, Krk",
+      "description": "Pregledajte galerije fotografija vjenčanja, događaja, poslovnih projekata i osobnih portreta snimljenih na otoku Krku i šire."
+    },
+    "blog": {
+      "title": "Blog | LUX Vision Krk",
+      "description": "Savjeti, priče iza kulisa i novosti iz svijeta fotografije i videografije s otoka Krka."
+    },
+    "videos": {
+      "title": "Video | Snimatelj Krk – LUX Vision",
+      "description": "Video snimke vjenčanja, događaja i poslovnih projekata snimljene na otoku Krku. Pogledajte primjere videografskog rada LUX Vision."
+    },
+    "contact": {
+      "title": "Kontakt | Fotograf Krk – LUX Vision",
+      "description": "Kontaktirajte LUX Vision za upit o fotografiranju vjenčanja, događaja, poslovnog projekta ili osobnog portreta na otoku Krku."
+    },
+    "privacyPolicy": {
+      "title": "Politika privatnosti | LUX Vision",
+      "description": "Politika privatnosti LUX Vision – informacije o obradi osobnih podataka posjetitelja web stranice."
+    }
   }
 }

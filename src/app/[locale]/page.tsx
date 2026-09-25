@@ -7,6 +7,22 @@ import GalleryPreview from "@/components/GalleryPreview";
 import { getVideos } from "@/lib/api";
 import VideoPreview from "@/components/VideoPreview";
 import CTASection from "@/components/CTASection";
+import type { Metadata } from "next";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "seo.home" });
+
+  return {
+    title: t("title"),
+    description: t("description"),
+  };
+}
+
 
 export default async function HomePage({
   params,

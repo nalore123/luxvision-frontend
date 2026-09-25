@@ -107,6 +107,36 @@
     "paragraph3": "I came into this industry because I started noticing how quickly moments disappear, the way people laugh when they forget the camera is there, the quiet pauses between words, the atmosphere of a place that can never be repeated in exactly the same way again. I prefer working with natural light, real environments, and unposed situations whenever possible. I'm drawn to simplicity, clean compositions, honest emotions and a cinematic approach that enhances reality rather than replacing it. I pay attention to small details, to people's energy, and to how light changes a scene in seconds. I aim for honesty, atmosphere, and meaning. Whether I'm shooting weddings, events, or personal creative projects, the goal is always the same: to tell stories that feel authentic, emotional, and timeless.",
     "paragraph4": "LUX Vision is not just about photos or videos, it's about memories and moments. It's about how something felt in a specific moment of time, and being able to relive that feeling years later through photos or videos.",
     "quote": "Do what you love, and love what you do."
+  },
+  "seo": {
+    "home": {
+      "title": "Photographer & Videographer Krk | LUX Vision",
+      "description": "Professional photographer and videographer based on the island of Krk. Photography and video for weddings, events, business projects, and personal portraits."
+    },
+    "about": {
+      "title": "About | Photographer Krk – LUX Vision",
+      "description": "Meet Luka Kosić, the photographer and videographer behind LUX Vision on the island of Krk. His story, approach, and style of work."
+    },
+    "galleries": {
+      "title": "Galleries | Weddings, Events & Portraits, Krk",
+      "description": "Browse galleries of weddings, events, business projects, and personal portraits photographed on the island of Krk and beyond."
+    },
+    "blog": {
+      "title": "Blog | LUX Vision Krk",
+      "description": "Tips, behind-the-scenes stories, and news from the world of photography and videography on the island of Krk."
+    },
+    "videos": {
+      "title": "Video | Videographer Krk – LUX Vision",
+      "description": "Video footage of weddings, events, and business projects shot on the island of Krk. See examples of LUX Vision's videography work."
+    },
+    "contact": {
+      "title": "Contact | Photographer Krk – LUX Vision",
+      "description": "Contact LUX Vision to inquire about a wedding, event, business project, or personal portrait session on the island of Krk."
+    },
+    "privacyPolicy": {
+      "title": "Privacy Policy | LUX Vision",
+      "description": "LUX Vision's privacy policy – information on how visitor personal data is processed."
+    }
   }
 
 }
