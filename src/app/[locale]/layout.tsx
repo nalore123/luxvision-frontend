@@ -1,29 +1,3 @@
-import type { Metadata } from "next";
-import { notFound } from "next/navigation";
-import { NextIntlClientProvider } from "next-intl";
-import { getMessages, setRequestLocale } from "next-intl/server";
-import { routing } from "@/i18n/routing";
-import "../globals.css";
-import Navigation from "@/components/Navigation";
-import { Fraunces, Inter } from "next/font/google";
-import Footer from "@/components/Footer";
-import StructuredData from "@/components/StructuredData";
-
-
-const fraunces = Fraunces({
-  subsets: ["latin", "latin-ext"],
-  variable: "--font-display",
-  style: ["normal", "italic"],
-});
-
-const inter = Inter({
-  subsets: ["latin", "latin-ext"],
-  variable: "--font-sans",
-});
-export function generateStaticParams() {
-  return routing.locales.map((locale) => ({ locale }));
-}
-
 export async function generateMetadata({
   params,
 }: {
@@ -52,35 +26,8 @@ export async function generateMetadata({
       siteName: "LUX Vision",
       locale: locale === "hr" ? "hr_HR" : "en_US",
     },
+    verification: {
+      google: "TzYQEsuaL-CzoNuzo6lv4ErfbVD0rU59EJ_pmpNRzjw",
+    },
   };
-}
-
-export default async function LocaleLayout({
-  children,
-  params,
-}: {
-  children: React.ReactNode;
-  params: Promise<{ locale: string }>;
-}) {
-  const { locale } = await params;
-
-  if (!routing.locales.includes(locale as "hr" | "en")) {
-    notFound();
-  }
-
-  setRequestLocale(locale);
-  const messages = await getMessages();
-
-  return (
-    <html lang={locale}>
-      <body className={`${fraunces.variable} ${inter.variable}`}>
-        <NextIntlClientProvider messages={messages}>
-          <StructuredData />
-          <Navigation />
-          {children}
-          <Footer />
-        </NextIntlClientProvider>
-      </body>
-    </html>
-  );
 }
